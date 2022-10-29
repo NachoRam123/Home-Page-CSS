@@ -8,7 +8,6 @@
     url('roboto.svg#svgFontName') format('svg'); /* Legacy iOS */
   }
   
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -20,10 +19,35 @@ body {
     flex-direction: column;
 }   
 
+.sub-hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px
+}
+
+.subhero .description {
+    flex: 1;
+    padding: ;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.imgage {
+    margin-right: auto;
 }
 
 ul {
@@ -35,8 +59,22 @@ ul {
     gap: 10px;
 }
 
+li, p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .Header-logo {
     font-size: 24px;
     color: #f9faf8;
     margin: 0;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 20px;
+    border-style: hidden;
 }
