@@ -15,7 +15,7 @@ body {
 .hero {
     background-color: #1F2937;
     display: flex;
-    padding: 2px 100px;
+    padding: 2px 100px 60px;
     flex-direction: column;
 }   
 
@@ -59,7 +59,7 @@ ul {
     gap: 10px;
 }
 
-li, p {
+.hero li, .hero  p {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -77,4 +77,37 @@ button {
     border-radius: 5px;
     padding: 5px 20px;
     border-style: hidden;
+}
+
+.primary-info > h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.primary-info > .icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.icon {
+    width: 120px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.square {
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 20px;
+    height: 120px;
+    /* width: 100px; */
+}
+
+.primary-info  p {
+    color: black;
+    font-size: 14px;
 }
