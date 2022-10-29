@@ -76,7 +76,15 @@ button {
     font-weight: bold;
     border-radius: 5px;
     padding: 5px 20px;
-    border-style: hidden;
+    border-style: solid;
+}
+
+.hero button {
+    border-color: #1F2937;
+}
+
+.primary-info {
+    padding: 0px 150px
 }
 
 .primary-info > h2 {
@@ -88,8 +96,8 @@ button {
 
 .primary-info > .icons {
     display: flex;
-    justify-content: center;
-    gap: 40px;
+    justify-content: space-between;
+    /* gap: 40px; */
     align-items: flex-start;
 }
 
@@ -97,6 +105,7 @@ button {
     width: 120px;
     margin-top: 0;
     text-align: center;
+    flex-shrink: 0;
 }
 
 .square {
@@ -110,4 +119,55 @@ button {
 .primary-info  p {
     color: black;
     font-size: 14px;
+}
+
+.comentario {
+    background-color: #e5e7eb;
+    padding: 50px 150px;
+}
+
+.comentario .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+    /* width: 800px; */
+    /* flex: auto 1 800px; */
+    text-align: left;
+}
+
+.comentario p {
+    text-align: end;
+}
+
+.sign-up {
+    margin: 50px 100px;
+    padding: 35px 100px;
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.sign-up h3, .sign-up p {
+    margin: 0;
+    padding: 0;
+    color: #e5e7eb;
+}
+
+.sign-up p {
+    font-size: small;
+}
+
+.sign-up button {
+    /* border-style: solid; */
+    border-color: #e5e7eb;
+}
+
+.footer { 
+    padding: 20px;
+    text-align: center;
+    background-color:#1F2937 ;
+    color: #e5e7eb;
+    font-size: small;
 }
