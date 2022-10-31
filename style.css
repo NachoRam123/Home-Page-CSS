@@ -23,12 +23,12 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 40px
+    /* gap: 40px */
 }
 
-.subhero .description {
-    flex: 1;
-    padding: ;
+.sub-hero .description {
+    width: 600px;
+    flex: 1 1 initial;
 }
 
 .header {
@@ -46,9 +46,9 @@ h1 {
     font-weight: bold;
 }
 
-.imgage {
-    margin-right: auto;
-}
+.image {
+    margin-left: auto;
+   }
 
 ul {
     margin-left: auto;
@@ -84,7 +84,7 @@ button {
 }
 
 .primary-info {
-    padding: 0px 150px
+    /* padding: 0px 150px */
 }
 
 .primary-info > h2 {
@@ -96,8 +96,8 @@ button {
 
 .primary-info > .icons {
     display: flex;
-    justify-content: space-between;
-    /* gap: 40px; */
+    justify-content: center;
+    gap: 40px;
     align-items: flex-start;
 }
 
@@ -142,11 +142,15 @@ button {
 
 .sign-up {
     margin: 50px 100px;
+    
     padding: 35px 100px;
     display: flex;
     background-color: #3882f6;
     border-radius: 5px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap:10px;
+    min-width: 200px;
+    
 }
 
 .sign-up h3, .sign-up p {
@@ -162,6 +166,7 @@ button {
 .sign-up button {
     /* border-style: solid; */
     border-color: #e5e7eb;
+    margin-left: auto;
 }
 
 .footer { 
