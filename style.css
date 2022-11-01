@@ -26,6 +26,13 @@ body {
     /* gap: 40px */
 }
 
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+  
+
 .sub-hero .description {
     width: 600px;
     flex: 1 1 initial;
